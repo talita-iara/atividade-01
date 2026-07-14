@@ -11,7 +11,7 @@ if quantidade >= 100:
 else:
     quantidade = quantidade
     preco_unitario = float(input("Digite o preço unitário do produto: "))
-    condicao_pagamento = str(input("Pagamento a vista =1, pagemento a prazo = 2: "))
+    condicao_pagamento = str(input("Digite a forma de pagamento: Pagamento a vista =1, pagemento a prazo = 2: "))
     if condicao_pagamento == "1":
         valor_total = quantidade * preco_unitario *0.95
     elif condicao_pagamento == "2":
