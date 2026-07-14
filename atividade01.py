@@ -7,7 +7,6 @@ categoria = input("Digite a categoria do produto: ")
 quantidade = int(input("Digite a quantidade vendida: "))
 if quantidade >= 100:
     print("Quantidade indisponível: ")
-
 else:
     quantidade = quantidade
     preco_unitario = float(input("Digite o preço unitário do produto: "))
@@ -20,7 +19,7 @@ else:
         print("Forma de pagamento inválida!")
         exit()
     
-    print(f"-------EXTRATO DE VENDA: ---------\n"
+    print(f"---------EXTRATO DE VENDA: ---------\n"
         f"ID da venda: {id_venda} \n"
         f"Data de realização: {data} \n"
         f"Vendedor: {vendedor} \n"
